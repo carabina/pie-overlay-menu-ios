@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
     s.source	 = { :git => "https://github.com/piemapping/pie-overlay-menu-ios.git", :tag => s.version.to_s }
 
     s.source_files = 'Source/*.swift'
-    s.resource_bundle = { 'PieOverlayMenu' => 'Source/UI/*.xcassets' }
+    s.resource_bundle = { 'PieOverlayMenu' => 'Source/*.xcassets' }
 end
